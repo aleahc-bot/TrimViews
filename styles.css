@@ -195,7 +195,7 @@ header.scrolled{box-shadow:0 14px 40px -28px rgba(27,23,18,.5)}
 /* footer */
 footer{background:var(--ink);color:var(--bone);padding:88px 0 36px}
 .fgrid{display:grid;grid-template-columns:1.5fr .85fr .8fr 1.05fr;gap:48px;padding-bottom:54px;border-bottom:1px solid var(--line-dk)}
-.flogo img{height:40px;margin-bottom:22px}
+.flogo img{height:40px;width:auto;max-width:none;object-fit:contain;margin-bottom:22px}
 .ftag{color:var(--taupe-lt);max-width:300px;margin-bottom:26px;font-size:15px}
 .fcontact a{display:flex;align-items:center;gap:14px;margin-bottom:16px;color:var(--bone)}
 .fcontact .fic{width:40px;height:40px;border-radius:50%;background:var(--brass-soft);color:var(--brass);display:flex;align-items:center;justify-content:center;flex-shrink:0}
